@@ -13,7 +13,7 @@
 .title{width: 50%;padding-left: 30px;
 margin-bottom: 15px;margin-top: 25px;
 }
-
+.title img{position: absolute;top:309px;left:785px;width:15px;border-bottom: 1px solid rgb(129, 123, 123);}
 .title p{font-size: 19px;
 color: rgb(140, 136, 136);margin: 0;
 }
@@ -30,15 +30,10 @@ width: 128px;height: 40px;
 display: flex;justify-content: center;
 text-align: center;margin-bottom: 20px;
 }
-.new p{margin: 0 }
-
-
-
-
-
+.new p{position: absolute;bottom: 655px;}
 .score-best ul li{list-style-type: none;margin: 0;}
-.score-best ul li h2{margin: 0;}
-.score-best ul li h5{margin: 0;}
+.score-best ul li h2{position: absolute;top: 160px;}
+.score-best ul li h5{position: absolute;top:142px;}
 .score{width: 108px;
     height: 56px;
     background-color: rgb(197, 182, 182);
@@ -58,7 +53,7 @@ justify-content: center;
 text-align: center;
 } 
 .best h2{color: white;letter-spacing: 3px;}
-.score h2{color: white;}
+.score h2{color: white;letter-spacing: 1px;}
 .best h5{color: rgb(221, 218, 218);}
 .score h5{color: rgb(221,218,218);}
 
